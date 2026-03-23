@@ -1,5 +1,14 @@
 (function () {
-  var C = window.VW_CONFIG || {};
+  var C = window.VW_CONFIG || {
+    videoUrl:     'https://xrehepllramactmsrzqa.supabase.co/storage/v1/object/public/Marketing/Website%20Video.mp4',
+    greeting:     'Welcome!',
+    ctaColor:     '#1281d8',
+    ctaTextColor: '#ffffff',
+    buttons: [
+      { label: 'Book Your Demo', url: 'https://weareintouch.app/#demo' },
+      { label: 'Product Tour',   url: 'https://weareintouch.app/#features' }
+    ]
+  };
 
   // ── Inject CSS ──
   var style = document.createElement('style');

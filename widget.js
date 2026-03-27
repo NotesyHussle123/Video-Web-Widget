@@ -1,6 +1,6 @@
 (function () {
   var C = window.VW_CONFIG || {
-    videoUrl:     'https://xrehepllramactmsrzqa.supabase.co/storage/v1/object/public/Marketing/Website%20Video.mp4',
+    videoUrl:     'https://xrehepllramactmsrzqa.supabase.co/storage/v1/object/public/Marketing/Website%20Vid.mp4',
     greeting:     'Welcome!',
     ctaColor:     '#1281d8',
     ctaTextColor: '#ffffff',
